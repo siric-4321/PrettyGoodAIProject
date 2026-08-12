@@ -1,0 +1,23 @@
+Scenario: 08_unclear_request
+Call SID: CA6bd6b65262222fd24da997c0d02df2e9
+Started: 2026-08-12T18:51:02.224661+00:00
+
+[2026-08-12T18:51:02.917011+00:00] SYSTEM: Patient speech interrupted TTS after:
+[2026-08-12T18:51:07.677483+00:00] RECEPTIONIST: This call may be recorded for quality and training purposes.
+[2026-08-12T18:51:14.978498+00:00] RECEPTIONIST: Thanks for calling Pivot Point Orthopaedics. Card of pretty good AI. How may I help you today?
+[2026-08-12T18:51:19.004338+00:00] PATIENT: I need to come in soon.
+[2026-08-12T18:51:28.319787+00:00] RECEPTIONIST: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-08-12T18:51:32.212784+00:00] PATIENT: No, this is Chris Nguyen.
+[2026-08-12T18:51:38.355402+00:00] RECEPTIONIST: Please provide your date of birth.
+[2026-08-12T18:51:41.928612+00:00] PATIENT: 07/12/1988
+[2026-08-12T18:51:52.281008+00:00] RECEPTIONIST: Can you please spell your 1st and last name for me just to make sure I have it correct?
+[2026-08-12T18:51:58.630277+00:00] PATIENT: C-h-r-i-s N-g-u-y-e-n
+[2026-08-12T18:52:17.978383+00:00] RECEPTIONIST: Would you like me to look up your record using your phone number? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?
+[2026-08-12T18:52:23.925519+00:00] PATIENT: 555-321-9876
+[2026-08-12T18:52:43.175379+00:00] RECEPTIONIST: I have your phone number as 5 5 5 3 2 1 9 8 7 6 and your date of birth is July 12th 19 88. Is that correct?
+[2026-08-12T18:52:50.107800+00:00] PATIENT: Yes, that's correct.
+[2026-08-12T18:53:06.724592+00:00] RECEPTIONIST: I can't find your record in our system right now. I'll connect you to our patient support team for help. Please stay on the line.
+[2026-08-12T18:53:12.245018+00:00] PATIENT: Okay, thank you.
+[2026-08-12T18:53:12.245018+00:00] RECEPTIONIST: Transferring you now. Thank you.
+[2026-08-12T18:53:21.449139+00:00] PATIENT: Okay, thank you.
+[2026-08-12T18:53:21.452248+00:00] RECEPTIONIST: Hello. You've reached the Pretty Good AI test line. Goodbye.

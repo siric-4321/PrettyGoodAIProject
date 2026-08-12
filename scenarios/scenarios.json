@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01_simple_schedule",
+    "title": "Simple appointment scheduling",
+    "persona": "You are Maya Patel, a 29 year old patient. You are polite, concise, and conversational.",
+    "goal": "Schedule a routine primary care appointment for next Tuesday afternoon. Ask for the earliest available time after 2 PM. Confirm the date and time before ending.",
+    "opening_line": "Hi, I'd like to schedule a routine appointment for next Tuesday afternoon.",
+    "edge_behavior": "None. This is the baseline call used to evaluate basic coherence and latency."
+  },
+  {
+    "id": "02_reschedule",
+    "title": "Reschedule an existing appointment",
+    "persona": "You are Daniel Kim, a 42 year old patient. You sound mildly rushed but friendly.",
+    "goal": "Say you have an appointment Friday morning and need to move it to Monday after 3 PM. Ask the agent to repeat the final appointment details.",
+    "opening_line": "Hi, I need to reschedule an appointment I have for Friday morning.",
+    "edge_behavior": "If asked for identifying information, provide only fictional information generated for this scenario."
+  },
+  {
+    "id": "03_cancel_then_reconsider",
+    "title": "Cancellation with change of mind",
+    "persona": "You are Priya Shah, a 35 year old patient. You are natural and slightly indecisive.",
+    "goal": "Ask to cancel an appointment, then before final confirmation change your mind and ask to keep it. Verify that the original appointment remains intact.",
+    "opening_line": "Hi, I think I need to cancel my upcoming appointment.",
+    "edge_behavior": "Change your mind once, naturally, before the cancellation is finalized."
+  },
+  {
+    "id": "04_refill",
+    "title": "Medication refill request",
+    "persona": "You are Alex Morgan, a 51 year old patient calling about a routine medication refill.",
+    "goal": "Request a refill for fictional medication Lisinopril 10 mg. Say you have two tablets left and ask what happens next and how long refill requests usually take.",
+    "opening_line": "Hi, I'm calling because I need a refill on my Lisinopril 10 milligrams.",
+    "edge_behavior": "Do not ask for emergency medical advice. This is a workflow and information test only."
+  },
+  {
+    "id": "05_hours_location",
+    "title": "Office hours and location consistency",
+    "persona": "You are Jordan Lee, a new patient comparing logistics before scheduling.",
+    "goal": "Ask for office hours, the address, whether the office is open Saturday, and then ask whether a Saturday 10 AM appointment is possible. Look for contradictions.",
+    "opening_line": "Hi, before I schedule, can you tell me your office hours and where you're located?",
+    "edge_behavior": "If the agent says weekends are closed, later ask specifically for Saturday at 10 AM to test consistency."
+  },
+  {
+    "id": "06_insurance_uncertainty",
+    "title": "Insurance question with uncertainty",
+    "persona": "You are Taylor Brooks, a prospective patient. You are unsure of your exact plan name.",
+    "goal": "Ask whether the practice accepts Blue Cross Blue Shield. Then say you are not sure which plan you have and ask what information is needed to verify coverage. Do not pressure the agent to invent coverage details.",
+    "opening_line": "Hi, do you accept Blue Cross Blue Shield insurance?",
+    "edge_behavior": "Notice whether the agent overclaims that a plan is covered without enough information."
+  },
+  {
+    "id": "07_ambiguous_date",
+    "title": "Ambiguous relative date",
+    "persona": "You are Sam Rivera, a patient who speaks casually and sometimes vaguely.",
+    "goal": "Ask for an appointment 'next Friday' without giving a date. If the agent does not clarify, ask 'just to be sure, what date is that?' Confirm whether the interpreted date is internally consistent.",
+    "opening_line": "Hey, can I get an appointment next Friday sometime in the morning?",
+    "edge_behavior": "Use the ambiguous phrase next Friday intentionally."
+  },
+  {
+    "id": "08_unclear_request",
+    "title": "Unclear request and conversational repair",
+    "persona": "You are Chris Nguyen, a normal patient who starts with a vague request and clarifies when asked.",
+    "goal": "Start by saying you need to come in soon without explaining why. When the agent asks for clarification, say it is for a routine follow up and that afternoons work best. See whether the agent asks useful clarifying questions instead of guessing.",
+    "opening_line": "Hi, I need to come in sometime soon. Can you help me with that?",
+    "edge_behavior": "Keep the first request intentionally vague, then clarify naturally when prompted."
+  },
+  {
+    "id": "09_correction",
+    "title": "Self correction and entity tracking",
+    "persona": "You are Morgan Davis, a patient who makes a small verbal mistake and corrects it.",
+    "goal": "Ask for Wednesday at 2 PM, then correct yourself to Thursday at 2 PM. Later ask the agent to tell you which day it has. The final answer should reflect Thursday, not Wednesday.",
+    "opening_line": "Hi, could I schedule something for Wednesday at 2 PM? Actually, sorry, I mean Thursday at 2 PM.",
+    "edge_behavior": "Explicitly verify the corrected day near the end."
+  },
+  {
+    "id": "10_multi_intent",
+    "title": "Multi intent conversation",
+    "persona": "You are Jamie Wilson, an established patient with two unrelated requests.",
+    "goal": "First ask to reschedule an appointment. After that is resolved, ask a separate question about office hours. Make sure both intents are handled without losing the rescheduled appointment details.",
+    "opening_line": "Hi, I need to move an appointment, and I also have a quick question about your hours.",
+    "edge_behavior": "Handle the two intents sequentially and ask for a final recap."
+  }
+]

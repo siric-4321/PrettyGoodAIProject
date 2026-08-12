@@ -1,0 +1,26 @@
+Scenario: 04_refill
+Call SID: CA42e90eb4e3674524ff81de3fd87e1a21
+Started: 2026-08-12T18:39:29.227088+00:00
+
+[2026-08-12T18:39:29.961622+00:00] SYSTEM: Patient speech interrupted TTS after:
+[2026-08-12T18:39:34.599300+00:00] RECEPTIONIST: This call may be recorded for quality and training purposes.
+[2026-08-12T18:39:42.375724+00:00] RECEPTIONIST: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[2026-08-12T18:39:48.212050+00:00] PATIENT: I need a refill of Lisinopril 10 mg — I only have two tablets left; what happens next and how long do refill requests usually take?
+[2026-08-12T18:40:12.964912+00:00] RECEPTIONIST: I'll need to verify your identity 1st. Can you please provide your full name and date of birth? Once verified, I'll submit your refill request. Most refills are processed within 1 to 2 business days.
+[2026-08-12T18:40:18.836046+00:00] PATIENT: Alex Morgan, DOB 03/22/1975
+[2026-08-12T18:40:41.564011+00:00] RECEPTIONIST: I have your name as Alex Morgan. And your date of birth as 03/22/1975. Is that correct? If so, we can move forward. If not, please spell your full name and confirm your date of birth.
+[2026-08-12T18:40:44.324570+00:00] PATIENT: Yes, that's correct.
+[2026-08-12T18:40:51.386609+00:00] RECEPTIONIST: Thanks for confirming. Moment while I look up your chart.
+[2026-08-12T18:40:54.368094+00:00] PATIENT: Okay, thank you.
+[2026-08-12T18:41:10.291271+00:00] RECEPTIONIST: Would you like to use your phone number look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know, and we'll confirm your name and date of birth again.
+[2026-08-12T18:41:16.297108+00:00] PATIENT: 555-412-3078
+[2026-08-12T18:41:33.581040+00:00] RECEPTIONIST: I have your phone number as 5 5 5 4 1 2 3 0 7 8. And your date of birth as 03/22/1975. Is that correct?
+[2026-08-12T18:41:38.696776+00:00] PATIENT: Yes, that's correct.
+[2026-08-12T18:41:49.567775+00:00] RECEPTIONIST: So you're from the number we have on file. Am I speaking with Maya?
+[2026-08-12T18:41:52.849940+00:00] PATIENT: No, this is Alex Morgan.
+[2026-08-12T18:42:16.794922+00:00] RECEPTIONIST: It looks like I'm still unable to find your record in our system. I can't proceed further right now, but I'll make sure our clinic support team follows up with you about your refill request. Please stay on the line while I document this for our team.
+[2026-08-12T18:42:20.472160+00:00] PATIENT: Okay, I'll stay on the line.
+[2026-08-12T18:42:21.505029+00:00] RECEPTIONIST: Transferring you now Thank you.
+[2026-08-12T18:42:25.913164+00:00] PATIENT: Okay, thank you.
+[2026-08-12T18:42:26.319085+00:00] RECEPTIONIST: You've reached the Pretty Good AI test line. Goodbye.
+[2026-08-12T18:42:27.132228+00:00] PATIENT: Thank you. Goodbye.

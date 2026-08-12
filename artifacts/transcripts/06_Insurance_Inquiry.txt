@@ -1,0 +1,24 @@
+Scenario: 06_insurance_uncertainty
+Call SID: CA3367e28b93aaa7f657bfae1f5eae51f5
+Started: 2026-08-12T18:45:57.362315+00:00
+
+[2026-08-12T18:45:58.270568+00:00] SYSTEM: Patient speech interrupted TTS after:
+[2026-08-12T18:46:03.302369+00:00] RECEPTIONIST: This call may be recorded for quality and training purposes.
+[2026-08-12T18:46:10.657914+00:00] RECEPTIONIST: For calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?
+[2026-08-12T18:46:15.799861+00:00] PATIENT: Hi, I'm Taylor Brooks—do you accept Blue Cross Blue Shield, and I'm not sure which plan I have; what information do you need to verify my coverage?
+[2026-08-12T18:46:28.458518+00:00] RECEPTIONIST: Can you please provide your date of birth?
+[2026-08-12T18:46:32.975574+00:00] PATIENT: 07/14/1992
+[2026-08-12T18:46:50.053702+00:00] RECEPTIONIST: Just to confirm, I have your name as Taylor Brooks. And your date of birth as 07/14/1992. Is that correct? If not, could you please spell your 1st and last name for me?
+[2026-08-12T18:46:53.072365+00:00] PATIENT: Yes, that's correct.
+[2026-08-12T18:47:08.357034+00:00] RECEPTIONIST: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again.
+[2026-08-12T18:47:12.218675+00:00] PATIENT: 555-321-4709
+[2026-08-12T18:47:32.595219+00:00] RECEPTIONIST: I have your phone number as 5 5 5 3 2 1 4 7 0 9, and your date of birth as 07/14/1992? Is that correct?
+[2026-08-12T18:47:36.284410+00:00] PATIENT: Yes, that's correct.
+[2026-08-12T18:47:54.357770+00:00] RECEPTIONIST: I'm unable to find your record in our system. I can connect you to our patient support team for help with your insurance and coverage questions. You like me to transfer you now?
+[2026-08-12T18:48:04.854045+00:00] PATIENT: Yes, please transfer me.
+[2026-08-12T18:48:08.025081+00:00] RECEPTIONIST: I'm not able to find your record in our system. I
+[2026-08-12T18:48:12.017728+00:00] PATIENT: Okay, thank you.
+[2026-08-12T18:48:12.530710+00:00] RECEPTIONIST: transferring you now. Thank you.
+[2026-08-12T18:48:18.380357+00:00] PATIENT: Okay, thank you.
+[2026-08-12T18:48:18.382371+00:00] RECEPTIONIST: You've reached the Pretty Good AI test line. Goodbye.
+[2026-08-12T18:48:19.197137+00:00] PATIENT: Thank you. Goodbye.

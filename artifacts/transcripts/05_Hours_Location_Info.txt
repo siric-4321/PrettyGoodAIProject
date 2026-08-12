@@ -1,0 +1,22 @@
+Scenario: 05_hours_location
+Call SID: CA564426a0d4f3eb2b1e8c5ffd9b791ef7
+Started: 2026-08-12T18:42:44.549123+00:00
+
+[2026-08-12T18:42:45.639390+00:00] SYSTEM: Patient speech interrupted TTS after:
+[2026-08-12T18:42:50.072791+00:00] RECEPTIONIST: This call may be recorded for quality and training purposes.
+[2026-08-12T18:42:57.752950+00:00] RECEPTIONIST: Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?
+[2026-08-12T18:43:03.131486+00:00] PATIENT: Hi, I’m Jordan Lee—could you tell me your office hours, the address, and if you’re open on Saturdays?
+[2026-08-12T18:43:15.994580+00:00] RECEPTIONIST: Can you please provide your date of birth? I need it to look up your information.
+[2026-08-12T18:43:20.911019+00:00] PATIENT: April 12, 1990.
+[2026-08-12T18:43:38.472913+00:00] RECEPTIONIST: Just to confirm, I have your name as Jordan Lee. And your date of birth as 04/12/1990. Is that correct? If so, please spell your 1st and last name for me.
+[2026-08-12T18:43:43.735991+00:00] PATIENT: J-O-R-D-A-N L-E-E
+[2026-08-12T18:44:03.903859+00:00] RECEPTIONIST: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just confirm your 1st and last name and date of birth for me 1 more time.
+[2026-08-12T18:44:08.521045+00:00] PATIENT: Jordan Lee, 04/12/1990.
+[2026-08-12T18:44:40.261060+00:00] RECEPTIONIST: I'm unable to find your record in our system right now, but I can still answer your general questions. Our clinic is at 1234 Recovery Way, suite 200, Austin. We're open Monday, Tuesday, and Thursday from 9AM to 4PM. Wednesday, from 12PM to 7PM, and Friday from 9AM to 12PM. We close on Saturdays,
+[2026-08-12T18:44:46.113977+00:00] PATIENT: Is a Saturday 10 AM appointment possible?
+[2026-08-12T18:44:58.687983+00:00] RECEPTIONIST: We're not open on Saturdays, so we don't have appointments available then. Would you like to hear about openings during the week?
+[2026-08-12T18:45:04.033808+00:00] PATIENT: Yes, please.
+[2026-08-12T18:45:14.773055+00:00] RECEPTIONIST: We have openings on weekdays, including mornings and afternoons. Do you have a preferred day or time of day for your appointment?
+[2026-08-12T18:45:20.779675+00:00] PATIENT: Wednesday at 2 PM.
+[2026-08-12T18:45:31.172036+00:00] RECEPTIONIST: We have an opening on Wednesday at 2PM. Would you like to book that slot?
+[2026-08-12T18:45:41.697446+00:00] PATIENT: Yes, please. Goodbye.

@@ -1,0 +1,25 @@
+Scenario: 03_cancel_then_reconsider
+Call SID: CA6974978a683fb7d83cbe416ac95de49e
+Started: 2026-08-12T18:36:42.670059+00:00
+
+[2026-08-12T18:36:43.586217+00:00] SYSTEM: Patient speech interrupted TTS after:
+[2026-08-12T18:36:48.296519+00:00] RECEPTIONIST: This call may be recorded for quality and training purposes.
+[2026-08-12T18:36:55.975529+00:00] RECEPTIONIST: Thanks for calling Pivot Point Orthopaedics. For the Pretty Good AI. How may I help you today?
+[2026-08-12T18:37:04.820228+00:00] PATIENT: Hi, this is Priya Shah — I'd like to cancel my appointment on August 25th at 3:00 PM.
+[2026-08-12T18:37:06.830926+00:00] RECEPTIONIST: Hello. Thanks
+[2026-08-12T18:37:12.670596+00:00] PATIENT: It's with Dr. Lee on August 25th at 3:00 PM.
+[2026-08-12T18:37:19.829879+00:00] RECEPTIONIST: Please provide your date of birth.
+[2026-08-12T18:37:24.641587+00:00] PATIENT: April 7, 1991.
+[2026-08-12T18:37:41.338463+00:00] RECEPTIONIST: Just to confirm, I have your name as Priya Shah, and your date of birth is 7th 19 91. Is that correct? If so, please spell your 1st and last name for me.
+[2026-08-12T18:37:49.433366+00:00] PATIENT: No — my DOB is April 7, 1991; Priya P-R-I-Y-A, Shah S-H-A-H.
+[2026-08-12T18:38:10.729257+00:00] RECEPTIONIST: You like to use your phone number to look up your record? If so, please provide the number you have on file with us. You're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed.
+[2026-08-12T18:38:16.261126+00:00] PATIENT: 555-412-7830
+[2026-08-12T18:38:32.231831+00:00] RECEPTIONIST: I have your phone number as 55 4 1 2 7 8 3 0. And your date of birth is 04/07/1991. Is that correct?
+[2026-08-12T18:38:36.073244+00:00] PATIENT: Yes, that's correct.
+[2026-08-12T18:38:47.327670+00:00] RECEPTIONIST: So you're calling from the number we have on file. Am I speaking with Maya?
+[2026-08-12T18:38:50.250574+00:00] PATIENT: No, this is Priya Shah.
+[2026-08-12T18:39:05.717638+00:00] RECEPTIONIST: I'm unable to find your record in our system. Connect you to our patient support team, so they can assist you further. Please stay on the line.
+[2026-08-12T18:39:10.431160+00:00] PATIENT: Okay, thank you.
+[2026-08-12T18:39:10.435105+00:00] RECEPTIONIST: Transferring you now. Thank you.
+[2026-08-12T18:39:17.594858+00:00] PATIENT: Hi, this is Priya Shah — I'd like to cancel my appointment with Dr. Lee on August 25th at 3:00 PM.
+[2026-08-12T18:39:17.599381+00:00] RECEPTIONIST: Hello. You've reached the Pretty Good AI test
