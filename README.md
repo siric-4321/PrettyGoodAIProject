@@ -3,7 +3,11 @@
 For the Pretty Good AI AI Engineering Challenge, I built a Python voice agent that calls the assessment line and acts like a real patient interacting with the practice's AI receptionist.
 
 The goal was not just to run scripted test cases. I wanted the patient agent to actually listen to what the receptionist said, respond naturally, and continue steering the conversation toward the goal of each scenario. The system records every call, saves both sides of the conversation as a transcript, and analyzes the completed call for potential issues.
-
+**
+**Loom Videos
+Project Walkthrough: https://www.loom.com/share/3ad50b6ef97f4b548268807145bbbc00
+Prompt Handling: https://www.loom.com/share/ce2eaaeb39ae4a64b3de81b8b09d478e**
+**
 ## What I Built
 
 The simulator:
